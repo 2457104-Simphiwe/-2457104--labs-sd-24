@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+header h1{
+    font-size: larger;
+}
+header h1, a{              
+    color: white;
+}
+
+ul.nav-links{
+    list-style: none;
+    
+   
+}
+ul.nav-links li{    /* for each link  */
+    display: inline-block;
+   padding: 0px 10px;
+   font-size: medium;
+   
+   
+}
+.first-section{
+    text-align: center;
+}
+.second-section{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.second-section article{
+    display: inline-block;
+    margin:10 px;
+    border: 1px solid black; /* Adjust the thickness as needed */
+    text-align: center; /* Center the image and caption */
+    padding: 10px; /* Add padding to create space within the border */
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position:relative;
+    bottom: 0;
+}
