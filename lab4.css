@@ -1,0 +1,16 @@
+
+
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Adjust as needed */
+    text-align: center;
+
+}
+.secondSection article{
+    display: inline-block;
+    margin:10px;
+    text-align: center;
+    flex: 1; /* Equal width for both articles */
+    padding: 10px;
+}
